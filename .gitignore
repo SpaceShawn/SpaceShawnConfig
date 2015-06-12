@@ -6,3 +6,4 @@
 !.bash_aliases
 !.CS1_aliases
 !.config/terminator
+!.tmux.conf.*

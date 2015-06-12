@@ -41,3 +41,8 @@ alias css="csscript"
 alias cscom="cscommander"
 alias cstw="css && cd tgz-wizard"
 alias cswp="cswatchpuppy"
+
+# git
+alias gits='git status'
+alias gitpom='git push origin master'
+alias gitcom='git commit'
