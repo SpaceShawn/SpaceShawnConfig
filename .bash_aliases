@@ -114,3 +114,6 @@ alias rgrep='rgrep -HnT --color=auto'
 if [ -f ~/.CS1_aliases ]; then
     . ~/.CS1_aliases
 fi
+
+EDITOR=vim
+export EDITOR
