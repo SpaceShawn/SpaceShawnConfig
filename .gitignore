@@ -3,6 +3,9 @@
 !.gitignore
 !.vimrc
 !.vim/*
+!.vim/bundle/tabular
 !.bash_aliases
 !.CS1_aliases
 !.config/terminator
+
+.git
