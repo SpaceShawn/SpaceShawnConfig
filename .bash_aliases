@@ -112,6 +112,7 @@ alias psgrep='ps aux | grep'
 alias supgrade='sudo apt-get update && sudo apt-get -y dist-upgrade'
 alias grep='grep -HnT --color=auto'
 alias rgrep='rgrep -HnT --color=auto'
+alias ll='ls -larth'
 
 if [ -f ~/.CS1_aliases ]; then
     . ~/.CS1_aliases
