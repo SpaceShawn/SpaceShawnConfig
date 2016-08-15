@@ -113,6 +113,7 @@ alias supgrade='sudo apt-get update && sudo apt-get -y dist-upgrade'
 alias grep='grep -HnT --color=auto'
 alias rgrep='rgrep -HnT --color=auto'
 alias ll='ls -larth'
+alias scanips='sudo arp-scan -l -I wlp2s0'
 
 if [ -f ~/.CS1_aliases ]; then
     . ~/.CS1_aliases
