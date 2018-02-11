@@ -5,6 +5,8 @@
 !.vim/*
 !.vim/bundle/tabular/*
 !.bash_aliases
+!.bash_git
+!.gitconfig
 !.CS1_aliases
 !.config/terminator
 

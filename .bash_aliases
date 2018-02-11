@@ -1,3 +1,18 @@
+EDITOR=vim
+export EDITOR
+
+alias sshsync='rsync -aEvz -e ssh'
+alias psgrep='ps aux | grep'
+alias supgrade='sudo apt-get update && sudo apt-get -y dist-upgrade'
+alias grep='grep -HnT --color=auto'
+alias rgrep='rgrep -HnT --color=auto'
+alias ll='ls -larth'
+alias scanips='sudo arp-scan -l -I wlp2s0'
+
+if [ -f ~/.CS1_aliases ]; then
+    . ~/.CS1_aliases
+fi
+
 #  Customize BASH PS1 prompt to show current GIT repository and branch.
 #  by Mike Stewart - http://MediaDoneRight.com
 
@@ -86,11 +101,12 @@ PathFull="\W"
 NewLine="\n"
 Jobs="\j"
 
-
-test="blah"
-
 # This PS1 snippet was adopted from code for MAC/BSD I saw from: http://allancraig.net/index.php?option=com_content&view=article&id=108:ps1-export-command-for-git&catid=45:general&Itemid=96
 # I tweaked it to work on UBUNTU 11.04 & 11.10 plus made it mo' better
+
+if [ -f ~/.bash_git ]; then
+    . ~/.bash_git
+fi
 
 export PS1=$IBlack$Time12h$Color_Off'$(git branch &>/dev/null;\
 if [ $? -eq 0 ]; then \
@@ -107,17 +123,3 @@ else \
   echo " '$Blue$PathShort$Color_Off'\$ "; \
 fi)'
 
-alias sshsync='rsync -aEvz -e ssh'
-alias psgrep='ps aux | grep'
-alias supgrade='sudo apt-get update && sudo apt-get -y dist-upgrade'
-alias grep='grep -HnT --color=auto'
-alias rgrep='rgrep -HnT --color=auto'
-alias ll='ls -larth'
-alias scanips='sudo arp-scan -l -I wlp2s0'
-
-if [ -f ~/.CS1_aliases ]; then
-    . ~/.CS1_aliases
-fi
-
-EDITOR=vim
-export EDITOR
