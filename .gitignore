@@ -2,8 +2,11 @@
 
 !.gitignore
 !.vimrc
+!.vim
 !.vim/*
 !.vim/bundle/*
+!.vim/bundle/Vundle.vim
+!.vim/bundle/Vundle.vim/*
 !.bash_aliases
 !.bash_git
 !.gitconfig
