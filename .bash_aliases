@@ -13,6 +13,8 @@ if [ -f ~/.CS1_aliases ]; then
     . ~/.CS1_aliases
 fi
 
+source ~./bash_git
+
 #  Customize BASH PS1 prompt to show current GIT repository and branch.
 #  by Mike Stewart - http://MediaDoneRight.com
 
