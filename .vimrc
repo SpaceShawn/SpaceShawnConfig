@@ -65,3 +65,5 @@ set pastetoggle=<F2>
 set hlsearch " Hilight search term
 set showmatch " Show matching brackets
 set incsearch " ... dynamically as they are typed"
+
+source ~/.vimrc-vundle
