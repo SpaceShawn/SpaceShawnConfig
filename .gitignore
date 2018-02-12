@@ -2,6 +2,7 @@
 
 !.gitignore
 !.vimrc
+!.vimrc-vundle
 !.vim/*
 !.vim/bundle/*
 !.vim/bundle/Vundle.vim
